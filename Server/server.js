@@ -39,7 +39,7 @@ app.use(require('./Routes/libro'));
 // mongoose (objeto, constante que importamos). connect (funcion)('parametro de la muncion, en este caso url de conexion') por estantar es mongodb://localhost, dominio o IP del servidor : puerto (el puerto de Mongo siempre es 27017 y en SQL 3306) /nombre de BD (si no la encuentra entinces la crea), {JSON}
 /*await*/
 // srv = servidor
-mongoose.connect('mongodb+srv://admin:bLyy5FK9SAtXoteF@cluster0.qj7xo.mongodb.net/Biblioteca', {
+mongoose.connect('mongodb+srv://admin:ikari2184@cluster0.hl4tv.mongodb.net/biblioteca', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,
